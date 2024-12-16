@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Nuevo Trabajador</title>
+    <link rel="stylesheet" href="CSS/iteracion4.css">
+    <link rel="icon" href="IMG/perros.jfif" type="image/x-icon">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-titulo">FORMULARIO</div>
+    </div>
+
+    <div class="flex-menu">
+        <div> <a href="index.html">Inicio</a></div>
+        <div><a href="iteracion2.html">Horario</a></div>
+        <div><a href="iteracio3.html">Galeria</a></div>
+    </div>
+
+    <div class="flex-traba">
+        <div class="tit-form">Nuevo Trabajador</div>
+        <div>
+            <form class="form" method="POST" action="https://alumnat.cat/form" enctype="multipart/form-data">
+                <!-- Nombre y Apellido -->
+                <label for="nombre">Nombre:</label><br>
+                <input class="espacio" type="text" placeholder="Nombre" name="nombre" required><br>
+
+                <label for="apellido">Apellido:</label><br>
+                <input class="espacio" type="text" placeholder="Apellido" name="apellido" required><br>
+
+                <!-- Edad -->
+                <label for="edad">Edad:</label><br>
+                <input class="espacio" type="number" placeholder="Edad" name="edad" min="18" required><br>
+
+                <!-- DNI -->
+                <label for="dni">DNI:</label><br>
+                <input class="espacio" type="text" placeholder="DNI" name="dni" required><br>
+
+                <!-- Color preferido -->
+                <label for="color">Color Preferido:</label><br>
+                <input class="espacio" type="color" name="color" required><br>
+
+                <!-- Correo electrónico -->
+                <label for="email">Correo Electrónico:</label><br>
+                <input class="espacio" type="email" placeholder="ejemplo@correo.com" name="email" required><br>
+
+                <!-- Estudios -->
+                <label for="estudios">Nivel de Estudios:</label><br>
+                <select class="espacio" name="estudios" required>
+                    <option value="primaria">Primaria</option>
+                    <option value="secundaria">Secundaria</option>
+                    <option value="bachillerato">Bachillerato</option>
+                    <option value="universitario">Universitario</option>
+                </select><br>
+
+                <!-- Sexo -->
+                <fieldset>
+                    <legend>Sexo:</legend>
+                    <label><input type="radio" name="sexo" value="hombre" required> Hombre</label><br>
+                    <label><input type="radio" name="sexo" value="mujer" required> Mujer</label><br>
+                    <label><input type="radio" name="sexo" value="otro" required> Otro</label><br>
+                </fieldset>
+
+                <!-- Explicación -->
+                <label for="explicacion">Explícanos algo sobre ti:</label><br>
+                <textarea class="espacio" name="explicacion" rows="5" cols="50" placeholder="Escribe aquí..." required></textarea><br>
+
+                <!-- Política de privacidad -->
+                <label>
+                    <input type="checkbox" name="privacidad" required>
+                    Acepto la política de privacidad de la empresa.
+                </label><br><br>
+
+                <!-- Fotografía -->
+                <label for="fotografia">Sube tu fotografía:</label><br>
+                <input class="espacio" type="file" name="fotografia" accept="image/*" required><br><br>
+
+                <!-- Botón de envío -->
+                <input class="espacio" type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

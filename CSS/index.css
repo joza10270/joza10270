@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+section h3 {
+    color: #2c3e50;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.imagen-aficion {
+    display: block;
+    margin: 1rem auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Aside */
+aside {
+    background-color: #ecf0f1;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para texto */
+b {
+    font-weight: bold;
+}
+
+span {
+    color: #e74c3c;
+    font-style: italic;
+}
+
+.tituloo {
+    color: blue;
+    background-color: antiquewhite;
+}
